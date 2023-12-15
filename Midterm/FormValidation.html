@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validation</title>    
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="FormValidation.css">
+        <script type="text/javascript" src="FormValidation.js"></script>
+
+    </head> 
+    <body>
+        <form action="./FormValidation.html" >
+            <h1>Form Validation</h1>
+            <fieldset>
+                <legend>Form Validation</legend>
+                <label for="txtusr">Username: </label>
+                <input type="text" placeholder="Enter username" id="txtusr" name="user">
+                <span id="usrvalid">Validation Messages</span>
+                <br>
+                <br>
+                <label for="txtpwd">Password: </label>
+                <input type="text" placeholder="Enter password" id="txtpwd" name="pass">
+                <span id="pwdvalid">Validation Messages</span>
+                <hr>
+                <input type="submit" value="Login" id="lgn">
+                <input type="button" value="Reset" id="rst">
+            </fieldset>
+        </form>
+    </body>   
+</html>
