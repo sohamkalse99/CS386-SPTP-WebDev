@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HW 1</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Homework 1</h1>
+        <hr>
+        <form action="./hw1.html" method="get">
+            <table border="1">
+                
+                <tr>
+                    <th colspan="3">USF Pizza Shack</th>
+                </tr>
+                
+                <tr>
+                    <th>Category</th>
+                    <th>Food/Drinks</th>
+                    <th>Quantity</th>
+                </tr>
+                
+                <!-- 1st row -->
+                <tr>
+                    <td>
+                        <label for="droppizza">Pizza Selection: </label>
+                    </td>
+                    <td>
+                        <select name="size" id="droppizza">
+                            <option value="" >Choose Pizza...</option>
+                            <option value="sm">Small (6 slices) $6.75</option>
+                            <option value="me">Medium (8 slices) $7.75</option>
+                            <option value="la">Large (12 slices) $10.05</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10" name="pq" id="pqty">
+                    </td>
+                </tr>
+            
+                <!-- 2nd row -->
+                <tr>
+                    <td>
+                        <label for="droptop">Toppings: </label>
+                    </td>
+                    <td>
+                        <select name="toppings" id="droptop">
+                            <option value="" >No Toppings</option>
+                            <option value="ar">Artichkes $1.50</option>
+                            <option value="ba">Bacon strips $1.25</option>
+                            <option value="br">Broccoli $1.50</option>
+                            <option value="ec">Extra cheese $1.00</option>
+                            <option value="ro">Red Onions $1.25</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- 3rd row -->
+                <tr>
+                    <td>
+                        <label for="dropbeverage">Drinks: </label>
+                    </td>
+                    <td>
+                        <select name="drinks" id="dropbeverage">
+                            <option value="">Choose Drinks</option>
+                            <option value="12c">12 oz. Can</option>
+                            <option value="16f">16 oz. Fountain</option>
+                            <option value="10f">10 oz. Fountain</option>
+                            <option value="li">One Liter</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="10" name="dq" id="dqty">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th colspan="3">Customer Information</th>
+                </tr>
+
+                <!-- 1st row Customer Info -->
+                <tr>
+                    <td>
+                        <label for="txtemail">Email: </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Full address" name="email" id="txtemail">
+                    </td>
+                    <td>Receipts will be sent to</td>
+                </tr>
+
+                <!-- 2nd row Customer Info -->
+                <tr>
+                    <td>
+                        <label for="txtfirst">Name: </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter first name" name="first" id="txtfirst">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter last name" name="last">
+                    </td>
+                </tr>
+
+                <!-- 3rd row Customer Info -->
+                <tr>
+                    <td>
+                        <label for="txtaddr">Address: </label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Full address" name="addr" id="txtaddr">
+                    </td>
+                    <td>Billing address</td>
+                </tr>
+
+                <tr>
+                    <th colspan="3">Payment Information</th>
+                </tr>
+
+                <tr>
+                    <td>Payment Method: </td>
+                    <td colspan="2">
+                        <label for="rdcc">Credit Card: </label>
+                        <input type="radio" value="cc" name="payment" id="rdcc">
+                        <label for="rdpp">Pay Pal: </label>
+                        <input type="radio" value="pp" name="payment" id="rdpp">
+                        <label for="rdve">Venmo: </label>
+                        <input type="radio" value="ve" name="payment" id="rdve">
+                        <label for="rdca">Cash: </label>
+                        <input type="radio" value="ca" name="payment" id="rdca">
+                    </td>
+                </tr>
+
+            </table>
+            <hr>
+            <button type="reset">Reset</button>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

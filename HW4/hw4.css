@@ -1,0 +1,13 @@
+fieldset{
+    border: solid 2px;
+    border-color: rgb(93, 7, 173);
+    background-color: rgb(227, 227, 254);
+    padding: 2%;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+.asterisk{
+    color: red;
+}

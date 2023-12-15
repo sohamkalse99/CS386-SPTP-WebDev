@@ -1,0 +1,64 @@
+#divMain{
+    display: grid;
+    grid-template-areas:
+    'header header header'
+    'nav content ads'
+    'nav footer footer';
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 16% 1fr 16%;
+    row-gap: 10px;
+    column-gap: 12px;
+    height: 90vh;
+    margin: 10px;
+}
+
+header{
+    padding: 1.2em;
+    background-color: rgb(255, 225, 0);
+    border: solid;
+}
+
+nav{
+    padding: 1.2em;
+    background-color: rgb(255, 225, 0);
+    border: solid;
+}
+
+aside{
+    padding: 1.2em;
+    background-color: rgb(255, 225, 0);
+    border: solid;
+}
+
+article{
+    padding: 1.2em;
+    background-color: rgb(255, 225, 0);
+    border: solid;
+}
+
+footer{
+    padding: 1.2em;
+    background-color: rgb(255, 225, 0);
+    border: solid;
+}
+
+#head{
+    grid-area: header;
+}
+
+#art{
+    grid-area: content;
+    
+}
+
+#navigation{
+    grid-area: nav;
+}
+
+#ads{
+    grid-area: ads;
+}
+
+#foot{
+    grid-area: footer;
+}
