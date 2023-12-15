@@ -1,0 +1,36 @@
+
+
+/* Style the nav div element */
+#nav {
+    width: 20vw;
+    display: inline-block;
+    border: 1px solid grey;
+    background-color: #439dd6;
+}
+
+a{
+    text-decoration: none;
+
+}
+  
+/* page-content div element */
+#page-content {
+    width: 40vw;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 8px 8px 8px;
+}
+
+/* unordered list element */
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+/* list elements */
+li {
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+}
+  
